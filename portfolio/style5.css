@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav_img{
+    height: 135px;
+    width: 135px;
+    margin-left: 100px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listitem{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.lists{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.lists:hover{
+    color: red;
+}
+.secondname{
+    color: orange;
+}
+.title{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.titleh1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.download{
+    background-color:black;
+    color:white;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 58%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s left 1s;
+}
+.images:hover #shape{
+    bottom: 20%;
+}
+.images:hover #girl{
+    left: 40%;
+}
+.aboutheading{
+    text-align: center;
+}
+#about{
+    margin: 15% 8% 0px 8%;
+}
+.abouth2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.intro{
+    font-size: 20px;
+    color: green;
+    font-weight: 400;
+
+}
+.aboutimg img{
+    width: 45%;
+}
+.aboutcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10;
+}
+.aboutdetails{
+    font-size: 18px;
+    text-align: justify;
+}
+.information{
+    margin-top: 20px;
+}
+.eachinfo{
+    margin-top: 15px;
+
+}
+.infospan{
+    margin-left: 15px;
+}
+.skillheading{
+    text-align: center;
+}
+#skills{
+    margin: 7% 8% 0px 8%;
+}
+.skillcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 10;
+
+}
+.progressbar{
+    margin-left: 70px;
+    padding-left: 40px;
+    margin-top: 100px;
+
+}
+.barcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.basebar{
+    background-color: black;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.orangebar{
+    background-color: orange;
+    width: 95%;
+     height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.contactheading{
+    text-align: center;
+    margin-top: 50px;
+}
+.contactheading{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.iconset{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+
+}
+.iconstyle{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.iconstyle:hover{
+    color: red;
+}
+.bottomfooter{
+    text-align: center;
+    margin-top: 1500px;
+}

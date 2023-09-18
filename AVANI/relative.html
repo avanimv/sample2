@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .first{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+/*             top: 100px;
+ */            position: relative;
+/*             left: 100px;
+ */        }
+        .parent{
+            position: relative;
+            height: 400px;
+            width: 400px;
+            border: 2px solid red;
+            left: 200px;
+
+        }
+        .child{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+
+    </div>
+    <div class="parent">
+        <div class="child"></div>
+
+    </div>
+    
+</body>
+</html>

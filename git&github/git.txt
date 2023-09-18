@@ -1,0 +1,32 @@
+GitHub
+:-it is a cloud based storage system with below features:
+1. it enables me and others to work together on a project from anywhere
+2. code hosting platform
+3. for version control and collaboration
+4. we can store code
+5. we can share code
+
+
+source code management system:
+       GitHub
+       gitlab
+       gitbucket
+
+
+       git 
+       :-git is a tool to perform operation in GitHub
+
+
+       storage system used in github:remote repository
+       storage system used in our computer: local repository
+
+
+       different operations in github:
+
+       push: uploading the code from local repository to remote repository
+       clone: downloading the entire code ,ie exact copy from remote repository to local repository
+       pull: downloading only the updated code from remote repository to local repository
+
+
+       different process in git operations
+       

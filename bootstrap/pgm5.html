@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicators</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="data:image/jpeg;base64,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"
+                        class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgyUZFcGOZ9oEd1Ahkm5Fus2dVr8Os0jfYZ-mVQ5zIw&s"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiPklyn_caAcyraM1n5YDWhhOMM10eT3AtUpxQHJ57CQ&s"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

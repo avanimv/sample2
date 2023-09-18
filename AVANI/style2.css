@@ -1,0 +1,25 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    border: 3px solid red;
+    
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    border: 3px solid red;
+    margin-left: 106px;
+    margin-top: -106px;
+    
+}
+.common_div{
+    background-color: green;
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    border: 3px solid red;
+    margin-left: 209px;
+    margin-top: -106px;
+
+}

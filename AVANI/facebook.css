@@ -1,0 +1,28 @@
+h3{
+    text-align: center;
+
+}
+.fb{
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#user{
+    height: 30px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    inline-size: 91%;
+
+}
+.login{
+    height: 30px;
+    color: white;
+    background-color: blue;
+    margin-left: 5px;
+    inline-size: 95%;
+    border: radius 5px; 
+}

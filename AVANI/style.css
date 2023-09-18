@@ -1,0 +1,19 @@
+h3{
+    color: darkgoldenrod;
+}
+img{
+    border-radius: 50%;
+}
+p{
+    background-color: brown;
+    border: 10px dotted red
+}
+#subheading{
+    color: blue;
+}
+#image{
+    height: 80px; width: 80px;
+}
+.common_head{
+    font-size: smaller;
+}
